@@ -57,7 +57,7 @@
                     </li>
                     <!--Bouton-->
                     <li class="dropdown">
-                        <a href="#">Rejoignez-nous</span></a>
+                        <a href="index.php?p=admin.memberships.index">Rejoignez-nous</span></a>
                     </li>
 
                     <!--Bouton-->
