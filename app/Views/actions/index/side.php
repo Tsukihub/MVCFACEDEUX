@@ -1,8 +1,7 @@
-       
-<h1 class="titreSectionside col-md-12 text-center">Catégories</h1>
-<section class="col-md-12 col-xs-12 presentation">
+    
+<section class="col-md-12 col-xs-12 presentation" id="borderleft">
   <!--Palmarès-->
-  <article id="Palmares">
+  <article>
     <ul class='category'>
     <?php if ($category) : ?>
      <?php foreach($category as $categorie): ?>

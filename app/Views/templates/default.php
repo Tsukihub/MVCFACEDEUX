@@ -127,6 +127,7 @@ https://www.solodev.com/blog/web-design/adding-an-infinite-client-logo-carousel-
 
   </section>
 </div>
+<footer>
 <div class="row-fluid footer">
 
   <a href="#placementDon"><div style="background-color: #679FA6; height: 30px; width: 30px; padding: 8px; margin : 8px;" class="pull-right text-center">^</div></a>
@@ -159,7 +160,7 @@ https://www.solodev.com/blog/web-design/adding-an-infinite-client-logo-carousel-
       </div>
     </div>
     <div class="row" id="lienMentions">
-      <p class="text-center"><a href="mentions.html">Mentions légales</a></p>
+      <p class="text-center"><a href="index.php?p=notices.index">Mentions légales</a></p>
     </div>
 
     </div>

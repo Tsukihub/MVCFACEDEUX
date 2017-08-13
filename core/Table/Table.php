@@ -26,6 +26,9 @@ class Table
     public function find($id){
         return $this->query("SELECT * FROM {$this->table} WHERE id = ?", [$id], true);
     }
+
+
+  
     public function findcategory($id){
         return $this->query("SELECT * FROM {$this->table} WHERE {$this->table}_category_id = ?", [$id]);
     }

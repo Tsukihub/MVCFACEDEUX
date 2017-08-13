@@ -19,7 +19,7 @@ class ContactsController extends AppController{
 
 
    	   $contact = $this->Contact->all();
-       $this->render('contact.index', compact('contact', 'mail'));
+       $this->render('contact.index', compact('contact'));
 
 
  

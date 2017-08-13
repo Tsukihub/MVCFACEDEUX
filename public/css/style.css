@@ -24,15 +24,6 @@ body {
   margin-top: 2px;
   padding: 5px; }
 
-.category, .category a {
-  color: grey; }
-
-.category li {
-  list-style-type: none; }
-.category a:hover {
-  text-decoration: none;
-  color: black; }
-
 .logoFace {
   margin-top: -45px; }
 
@@ -158,7 +149,6 @@ blockquote {
 
 .footer, .footerext {
   background-color: #335d68;
-  margin-top: 10px;
   padding: 20px 0 0 0px;
   width: 100%;
   border-top: 5px solid #E0A377;
@@ -214,9 +204,27 @@ blockquote {
   margin-top: 2%; }
 
 .titreSectionside {
-  background-color: #DAE4E5;
-  color: #69A1A8;
+  background-color: rgba(18, 110, 122, 0.6);
+  color: rgba(0, 0, 0, 0.5);
   padding: 3%; }
+
+#borderleft {
+  border-left: 3px solid orange;
+  margin-top: 7px;
+  padding: 30px;
+  line-height: 25px;
+  font-size: 120%;
+  background-color: rgba(18, 110, 122, 0.6);
+  color: white; }
+  #borderleft .category, #borderleft .category a {
+    color: white; }
+  #borderleft .category {
+    margin-bottom: 0px; }
+    #borderleft .category li {
+      list-style-type: none; }
+    #borderleft .category a:hover {
+      text-decoration: none;
+      color: lightgrey; }
 
 /*//////////////////////////////////////////////////////////////////////////////*/
 /*//////////////////////////////SECTION FIL ACTU////////////////////////////////*/
@@ -822,7 +830,10 @@ small {
   -khtml-user-select: none;
   -ms-touch-action: pan-y;
   touch-action: pan-y;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .slick-list {
   position: relative;
@@ -896,5 +907,4 @@ small {
   display: none; }
 
 #partners-slider {
-  margin-top: 10px;
   margin-bottom: 0px; }

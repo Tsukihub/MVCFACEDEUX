@@ -62,7 +62,7 @@
 
                     <!--Bouton-->
                     <li class="dropdown">
-                        <a href="contact.php" role="button">Contact</a>
+                        <a href="index.php?p=admin.contacts.edit" role="button">Contact</a>
                     </li>
 
 
@@ -94,7 +94,14 @@
 </main>
 
 </div><!-- /.container -->
+<footer>
+<div class="row-fluid footer">
+    <div class="row" id="lienMentions">
+      <p class="text-center"><a href="index.php?p=admin.notices.index">Mentions légales</a></p>
+    </div>
 
+    </div>
+  </footer>
 
 <script src="../public/js/jquery.js"></script>
 <script src="../public/js/bootstrap.js "></script>
