@@ -24,6 +24,15 @@ body {
   margin-top: 2px;
   padding: 5px; }
 
+.categorylink, .categorylink a {
+  color: grey; }
+
+.categorylink li {
+  list-style-type: none; }
+.categorylink a:hover {
+  text-decoration: none;
+  color: black; }
+
 .logoFace {
   margin-top: -45px; }
 
@@ -209,11 +218,11 @@ blockquote {
   padding: 3%; }
 
 #borderleft {
-  border-left: 3px solid orange;
+  border-left: 4px solid orange;
   margin-top: 7px;
   padding: 30px;
   line-height: 25px;
-  font-size: 120%;
+  font-size: 130%;
   background-color: rgba(18, 110, 122, 0.6);
   color: white; }
   #borderleft .category, #borderleft .category a {
@@ -319,11 +328,11 @@ aside {
     margin-bottom: 0px;
     background-color: rgba(18, 110, 122, 0.1);
     font-family: 'Abel', sans-serif;
-    color: #794300; }
+    color: #1D4B58; }
     .presentation h2 a {
       color: #1D4B58; }
   .presentation blockquote {
-    border-left: 3px solid orange;
+    border-left: 4px solid orange;
     margin-bottom: 0px;
     text-indent: 30px; }
   .presentation .actioncontent {

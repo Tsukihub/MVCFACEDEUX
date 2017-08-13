@@ -9,7 +9,7 @@
             <blockquote><p>
 
             <?= $post->accroche; ?></p></blockquote>
-            <em class='pull-right category'><?= $post->categorie; ?></em>
+ 
 
         <?php endforeach; ?>
         </article>

@@ -25,7 +25,7 @@
 
             </div>
           </article>
-          <p><em class="pull-right category"><a href="<?= $categorie->url ?>"><?= $categorie->titre ?></a></em></p>
+          <p><em class="pull-right categorylink"><a href="<?= $categorie->url ?>"><?= $categorie->titre ?></a></em></p>
     </section>
 
 
