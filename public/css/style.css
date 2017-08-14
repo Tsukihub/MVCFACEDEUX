@@ -1,15 +1,12 @@
 @charset "UTF-8";
 html, body {
-  max-width: 100%;
-  overflow-x: hidden;
   padding: 0%;
   /*Mise à zéro marges intérieures*/
   margin: 0%;
   /*Mise à zéro marges extérieures*/ }
 
 body {
-  background: url(https://s-media-cache-ak0.pinimg.com/736x/82/a6/6c/82a66c6b69a61564494a682e4fb0d704.jpg) no-repeat center fixed;
-  background-size: cover;
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/noise_lines.png);
   /*Couleur de fond de la page*/ }
 
 .container {
@@ -98,6 +95,8 @@ nav .dropdown-menu li a:hover {
   background: none;
   border: none;
   box-shadow: none;
+  font-size: 80%;
+  font-style: italic;
   /*Arrière plan avec un peu de transparence*/ }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -140,7 +139,7 @@ dropdown-menu li:hover .sub-menu {
 
   .navbar-nav li:hover {
     /*Quand on survol un lien de la barre de navigation*/
-    border-bottom: 3px solid #CF844D; } }
+    border-bottom: 3px solid orange; } }
 /*///////////////////////////////Citation////////////////////////////////////////*/
 blockquote {
   border-left: 0;

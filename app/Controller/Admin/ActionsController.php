@@ -59,7 +59,7 @@ class ActionsController extends AppController{
         $upload ="";
         if(isset($_FILES["actions_img"])){
            $upload = new Upload($_FILES["actions_img"]);
-           $upload->Process(ROOT."/public/img/actions");
+           $upload->Process("img/actions");
            print_r($_FILES);
            if ($upload->processed) {
            echo 'original image copied';
