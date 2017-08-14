@@ -1,0 +1,3 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^accueil.html$ index.php?p=posts.index [L] 

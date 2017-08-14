@@ -112,7 +112,7 @@ https://www.solodev.com/blog/web-design/adding-an-infinite-client-logo-carousel-
    <?php $files = array_slice(scandir('../public/img/partenaires'), 2);
     foreach($files as $logo){
   
-    echo ("<div class='slide'><img style='height: 70px;'' src='../public/img/partenaires/$logo' ></div>");
+    echo ("<div class='slide'><img src='../public/img/partenaires/$logo' ></div>");
   }
     ?><!-- 
 
