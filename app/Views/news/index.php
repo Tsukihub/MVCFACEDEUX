@@ -1,6 +1,6 @@
   <h1 class="col-xs-12 titlenews text-center">Face est dans les médias</h1>
   <section class="col-xs-12" id="sectionApprenant">
-    <div class="row">
+    <div class="row contenantpresse">
      <!--Profil de Andréa Lopez-->
      <?php foreach ($news as $news): ?> 
       <div class="col-xs-12 col-sm-6 col-md-4">

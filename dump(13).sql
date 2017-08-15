@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 13, 2017 at 09:22 
+-- Generation Time: Aug 15, 2017 at 03:19 
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 7.1.1
 
@@ -131,7 +131,7 @@ CREATE TABLE `img_paths` (
 --
 
 INSERT INTO `img_paths` (`img_path_id`, `img_path`, `img_page`) VALUES
-(1, '../public/img/actions/', 'actions');
+(1, 'img/actions/', 'actions');
 
 -- --------------------------------------------------------
 
@@ -351,7 +351,7 @@ ALTER TABLE `articles`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 --
 -- AUTO_INCREMENT for table `contacts`
 --

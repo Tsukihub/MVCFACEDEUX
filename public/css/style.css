@@ -3,15 +3,18 @@ html, body {
   padding: 0%;
   /*Mise à zéro marges intérieures*/
   margin: 0%;
+  width: 100%;
   /*Mise à zéro marges extérieures*/ }
 
 body {
-  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/noise_lines.png);
-  /*Couleur de fond de la page*/ }
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/diagonal-noise.png); }
 
 .container {
   /*Mise à zéro du padding du container de bootstrap*/
   padding: 0; }
+
+.row {
+  width: 100%; }
 
 #logo {
   width: 100%;
@@ -491,7 +494,14 @@ aside {
   line-height: 22px; }
 
 #sectionApprenant {
-  margin-top: 5%; }
+  margin-top: 5%;
+  padding-right: 0px;
+  margin-right: 0px;
+  padding-left: 0px; }
+
+.contenantpresse {
+  margin: 0px;
+  paddinf: 0px; }
 
 .lienApprenant {
   color: #126e7a; }
