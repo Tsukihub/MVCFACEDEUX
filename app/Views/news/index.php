@@ -8,16 +8,16 @@
           <div class="row" id="cadre">
             
             <h4><?= $news->title ?></h4><br/></h4>
-            <div class="col-md-5">
+            <div class="col-md-4 col-xs-4">
             <h5><?= $news->fromwhere ?></h5>
             <small>
               <?= $news->newsdatefr; ?>
             </small>
           </div>
           <?php if($news->link!==''): ?>
-          <a class="col-md-7 col-sm-5 col-xs-7 pull-right" href="<?= $news->link; ?>" target="blank"><button type="button" class="btn btn-default boutonMobile pull-right">Voir l'article</button></a>
+          <a class="col-md-7 col-sm-5 col-xs-7 pull-right" href="<?= $news->link; ?>" target="blank"><button type="button" class="btn btn-default boutonMobile">Voir l'article</button></a>
         <?php else : ?>
-           <div class="col-md-7 col-sm-5 col-xs-7 pull-right"  ><div class="newspaper pull-right">Presse papier</div></div>
+           <div class="col-md-7 col-sm-5 col-xs-7 pull-right "><div class="newspaper pull-right">Presse papier</div></div>
         <?php endif ?>
 
         </div>
