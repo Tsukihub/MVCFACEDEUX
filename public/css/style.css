@@ -9,6 +9,9 @@ html, body {
 body {
   background: url(https://www.toptal.com/designers/subtlepatterns/patterns/diagonal-noise.png); }
 
+.formobile {
+  display: none; }
+
 .container {
   /*Mise à zéro du padding du container de bootstrap*/
   padding: 0; }
@@ -443,6 +446,10 @@ aside {
 .glyphicon-home {
   color: white; }
 
+.glyphicon {
+  margin-bottom: 10px;
+  margin-right: 10px; }
+
 #sectionPartenariat {
   padding: 3%;
   background-color: white;
@@ -505,16 +512,6 @@ aside {
   margin: 0px;
   paddinf: 0px; }
 
-.lienApprenant {
-  color: #126e7a; }
-  .lienApprenant:hover {
-    color: #aaa9a9;
-    text-decoration: none; }
-
-.glyphicon {
-  margin-bottom: 10px;
-  margin-right: 10px; }
-
 small {
   display: block;
   color: #999; }
@@ -553,6 +550,25 @@ small {
   font-style: oblique; }
 
 @media screen and (max-width: 640px) {
+  .col-md-12 {
+    padding-right: 0px;
+    padding-left: 0px; }
+
+  .col-md-8 {
+    padding-right: 0px;
+    padding-left: 0px; }
+
+  .col-md-4 {
+    padding-right: 0px;
+    padding-left: 0px; }
+
+  p {
+    padding-left: 5px;
+    padding-right: 5px; }
+
+  .formobile {
+    display: block; }
+
   /*/////////////////////Navigation//////////////////*/
   #boutonDon {
     margin-right: 0; }
@@ -593,6 +609,9 @@ small {
   #presse {
     box-shadow: none; }
 
+  .articles .row {
+    margin: 0; }
+
   #presse article {
     margin-bottom: 10%; }
 
@@ -603,21 +622,15 @@ small {
   aside {
     margin-left: 0; }
 
-  #facebookMobile {
-    display: block;
-    background-color: #1693a5;
-    padding: 4%; }
-
-  #facebookOrdi {
-    display: none; }
-
-  #facebookTab {
-    display: none; }
-
   /*/////////////////////Présentation//////////////////*/
   .presentation {
-    padding: 5% 5% 30% 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 0px;
+    padding-left: 0px;
     box-shadow: none; }
+    .presentation img {
+      display: none; }
 
   .btn-group {
     margin: 2% 0% 10% 9%;
@@ -702,8 +715,6 @@ small {
       word-wrap: break-word; }
 
   .boutonMobile {
-    display: block;
-    width: 100%;
     color: white;
     border-radius: 5%; }
 
@@ -755,22 +766,8 @@ small {
       border: none;
       width: 100%; }
 
-  #dernierArticle {
-    border: none; }
-
   .lien {
     margin-left: 50%; }
-
-  #facebookMobile {
-    display: none; }
-
-  #facebookTab {
-    display: block;
-    background-color: #1693a5;
-    padding: 3%; }
-
-  #facebookOrdi {
-    display: none; }
 
   /*///Présentation///*/
   .presentation {
@@ -806,9 +803,12 @@ small {
     font-size: 1.1em; }
 
   .boutonMobile {
-    display: block;
+    margin-top: -35px;
     color: white;
     border-radius: 5%; }
+
+  .newspaper {
+    margin-top: -35px; }
 
   .mobileApprenant {
     display: none; }

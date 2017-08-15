@@ -39,13 +39,16 @@
           <ul class="nav navbar-nav">
             
             <!--Bouton-->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Qui sommes nous?<span class="caret"></span>
+   <!--          <li class="dropdown">
+              <a href="index.php?p=presentations.index" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Qui sommes nous?<span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li><a href="index.php?p=presentations.index">Face Territoire Bourbonnais</a></li>
                 <li><a href="#ancrepartenaires">Partenaires</a></li>
               </ul>
+            </li> -->
+               <li class="dropdown">
+              <a href="index.php?p=presentations.index">Qui sommes-nous ?</a>
             </li>
             <!--Bouton-->
             <li class="dropdown">
@@ -79,6 +82,12 @@
 
 
     <main class="row">
+     <?php if($sidecontent!==''): ?>
+  
+      <div class="col-md-12 formobile">
+        <?= $sidecontent; ?>
+      </div>
+    <?php endif ?>
      <?php if($sidecontent==''): ?>
       <div class="col-md-12">
         <?= $content; ?>

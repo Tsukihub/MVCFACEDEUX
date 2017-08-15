@@ -1,5 +1,5 @@
     
-<section class="col-md-12 col-xs-12 presentation" id="borderleft">
+<section class="col-md-12 presentation" id="borderleft">
   <!--Palmarès-->
   <article>
     <ul class='category'>
