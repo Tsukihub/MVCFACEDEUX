@@ -8,16 +8,7 @@
                 </div>
             <?php if ($actions->actions_img_name):?>
              
-              <img src="<?= $path->img_path.$actions->actions_img_name; ?>" class="col-md-12" alt="<?= $actions->actions_img_description; ?> " />
-
-    <!--           <div class="col-md-5 col-xs-12 col-sm-12 padding-left-none"> -->
-       <!--          <h2><?= $actions->title; ?></h2>
-                <blockquote><p><?= $actions->accroche; ?></p></blockquote>
-               </div>
-               <div class="col-md-12 col-xs-12 col-sm-12 ">
-                <p class="actioncontent"><?= $actions->content; ?></p>
-               </div>
-              -->
+              <img src="<?= $path->img_path.$actions->actions_img_name; ?>" class="col-md-12 col-sm-12 col-xs-12" alt="<?= $actions->actions_img_description; ?> " />
               <?php endif ?>
                  <div class="col-md-12 col-xs-12 col-sm-12">
                 <p class="actioncontent"><?= $actions->content; ?></p>

@@ -81,12 +81,9 @@
 
 
 
-    <main class="row">
      <?php if($sidecontent!==''): ?>
   
-      <div class="col-md-12 formobile">
-        <?= $sidecontent; ?>
-      </div>
+   
     <?php endif ?>
      <?php if($sidecontent==''): ?>
       <div class="col-md-12">
@@ -102,7 +99,7 @@
         <?= $sidecontent; ?>
       </div>
     <?php endif ?>
-    </main>
+ 
 
   </div><!-- /.container -->
 

@@ -569,6 +569,9 @@ small {
   .formobile {
     display: block; }
 
+  #borderleft {
+    display: none; }
+
   /*/////////////////////Navigation//////////////////*/
   #boutonDon {
     margin-right: 0; }
@@ -598,8 +601,6 @@ small {
   #filActu {
     box-shadow: none;
     padding: 4% 0% 4% 8%; }
-    #filActu img {
-      display: none; }
 
   .titreSection, .titreSectionside {
     box-shadow: none;
@@ -629,8 +630,6 @@ small {
     padding-right: 0px;
     padding-left: 0px;
     box-shadow: none; }
-    .presentation img {
-      display: none; }
 
   .btn-group {
     margin: 2% 0% 10% 9%;
@@ -747,6 +746,9 @@ small {
 
   .titreSection, .titreSectionside {
     box-shadow: none; }
+
+  #borderleft {
+    display: none; }
 
   /*///Navigation///*/
   .navbar {
