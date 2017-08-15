@@ -1,5 +1,5 @@
  <?php foreach($presentations as $presentations) :?>
- <article class="articles presentation pagepresentation col-md-10 col-md-offset-1">
+ <article class="articles presentation pagepresentation col-md-10 col-md-offset-1 col-sm-12 col-md-offset-0 col-xs-12">
     <h1 class="titreSection text-center col-md-12"><?= $presentations->title; ?></h1>
 <?= $presentations->content; ?>
 </article>

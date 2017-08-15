@@ -14,7 +14,9 @@ body {
   padding: 0; }
 
 .row {
-  width: 100%; }
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px; }
 
 #logo {
   width: 100%;
@@ -590,9 +592,6 @@ small {
   /*/////////////////////Presse///////////////////////*/
   #presse {
     box-shadow: none; }
-
-  .articles .row {
-    margin: 0; }
 
   #presse article {
     margin-bottom: 10%; }
