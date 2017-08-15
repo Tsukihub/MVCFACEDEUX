@@ -569,9 +569,6 @@ small {
   .formobile {
     display: block; }
 
-  #borderleft {
-    display: none; }
-
   /*/////////////////////Navigation//////////////////*/
   #boutonDon {
     margin-right: 0; }
@@ -746,9 +743,6 @@ small {
 
   .titreSection, .titreSectionside {
     box-shadow: none; }
-
-  #borderleft {
-    display: none; }
 
   /*///Navigation///*/
   .navbar {

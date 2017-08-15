@@ -83,7 +83,9 @@
 
      <?php if($sidecontent!==''): ?>
   
-   
+      <div class="col-md-12 col-sm-12 col-xs-12 formobile">
+        <?= $sidecontent; ?>
+      </div>
     <?php endif ?>
      <?php if($sidecontent==''): ?>
       <div class="col-md-12">
@@ -92,10 +94,10 @@
     <?php endif ?>
 
       <?php if($sidecontent!==''): ?>
-      <div class="col-md-8">
+      <div class="col-md-8 col-xs-12 col-sm-12">
         <?= $content; ?>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-12 col-xs-12">
         <?= $sidecontent; ?>
       </div>
     <?php endif ?>
