@@ -4,8 +4,8 @@
     </div>
 <?php endif; ?>
 
-<form method="post">
-    <?= $form->input('username', 'Pseudo'); ?>
+<form method="post" class='formulaires col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4'>
+    <?= $form->input('username', 'Identifiant'); ?>
     <?= $form->input('password', 'Mot de passe', ['type' => 'password']); ?>
-    <button class="btn btn-primary">Envoyer</button>
+    <button class="btn btn-danger" id="validation">Envoyer</button>
 </form>

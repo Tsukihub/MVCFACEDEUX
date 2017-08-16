@@ -1,2 +1,3 @@
+ Options +FollowSymlinks
 RewriteEngine On
-RewriteRule ^([^/]*)/([^/]*)/([^/]*)\.html$ /?p=$1&id=$2&category=$3 [L]
+RewriteRule ^foo.html$ test.html [L] 

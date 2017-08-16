@@ -44,14 +44,60 @@ body {
 nav .dropdown-menu li a:hover {
   background-color: inherit !important; }
 
-.edit .contentType {
-  display: none; }
+.formulaires {
+  background-color: rgba(18, 110, 122, 0.7);
+  border: 2px solid orange;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px; }
+  .formulaires p {
+    font-size: 0.8em; }
+  .formulaires #validation {
+    width: 40%;
+    margin: 1% 30% 0% 30%;
+    background-color: #1D4B58;
+    border: solid 2px white;
+    color: orange;
+    font-weight: bold; }
+  .formulaires label {
+    display: block;
+    text-align: center;
+    width: 100%; }
+  .formulaires input, .formulaires select, .formulaires p {
+    width: 80%;
+    margin: 1% 10% 1% 10%;
+    color: grey;
+    border-radius: 5px; }
+  .formulaires input {
+    background-color: white; }
+  .formulaires p {
+    color: white;
+    font-size: 100%; }
+  .formulaires textarea {
+    width: 80%;
+    margin: 1% 10% 1% 10%;
+    min-height: 100px;
+    color: grey; }
+  .formulaires .valider {
+    color: white;
+    background-color: #1D4B58;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 40%;
+    margin: 1% 30% 0% 30%; }
+  .formulaires .valider:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: white; }
 
 /*////////////Bouton Don////////////////////////*/
 #barre {
   height: 60px;
   background-color: #1D4B58;
-  border-bottom: 4px solid orange; }
+  border-bottom: 5px solid #E0A377; }
 
 #placementDon {
   text-align: right; }
@@ -60,10 +106,29 @@ nav .dropdown-menu li a:hover {
   margin-top: 10px;
   margin-right: 20px;
   color: white;
+  background-color: #F2F2F2;
   background-color: transparent; }
   #boutonDon span {
-    color: orange;
+    color: #E0A377;
     font-size: 17px; }
+
+.boutonDon {
+  margin-top: 20px;
+  height: 10px;
+  margin-right: 20px;
+  color: white;
+  background-color: #1D4B58;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold; }
+  .boutonDon span {
+    color: orange; }
+
+.boutonDon:hover {
+  text-decoration: none;
+  background-color: #335d68;
+  color: white; }
 
 /*////////////Barre de navigation/////////////*/
 .navbar {
@@ -186,11 +251,12 @@ blockquote {
   background-color: #335d68;
   margin-top: 80px; }
 
-#lienMentions {
+#lienMention {
   padding-top: 10%;
   font-size: 10px;
   font-size: 110%;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  background-color: #1D4B58; }
 
 #planSite {
   background-color: #1D4B58;
@@ -920,3 +986,16 @@ small {
 
 .slider img {
   height: 70px; }
+
+#admin {
+  /*////////////Bouton Don////////////////////////*/
+  /*////////////Bouton Don////////////////////////*/ }
+  #admin .edit .contentType {
+    display: none; }
+  #admin #barre {
+    height: 60px;
+    background-color: #1D4B58;
+    border-bottom: 4px solid orange; }
+  #admin #placementDon {
+    text-align: right;
+    padding-top: 20px; }

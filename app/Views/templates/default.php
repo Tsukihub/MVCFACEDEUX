@@ -37,7 +37,7 @@
       <nav class="navbar navbar-default col-md-9 col-sm-10 col-xs-9">
         <div class="container-fluid">
           <ul class="nav navbar-nav">
-            
+
             <!--Bouton-->
    <!--          <li class="dropdown">
               <a href="index.php?p=presentations.index" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Qui sommes nous?<span class="caret"></span>
@@ -47,7 +47,7 @@
                 <li><a href="#ancrepartenaires">Partenaires</a></li>
               </ul>
             </li> -->
-               <li class="dropdown">
+            <li class="dropdown">
               <a href="index.php?p=presentations.index">Qui sommes-nous ?</a>
             </li>
             <!--Bouton-->
@@ -81,19 +81,19 @@
 
 
 
-     <?php if($sidecontent!==''): ?>
-  
+    <?php if($sidecontent!==''): ?>
+
       <div class="col-md-12 col-sm-12 col-xs-12 formobile">
         <?= $sidecontent; ?>
       </div>
     <?php endif ?>
-     <?php if($sidecontent==''): ?>
+    <?php if($sidecontent==''): ?>
       <div class="col-md-12">
         <?= $content; ?>
       </div>
     <?php endif ?>
 
-      <?php if($sidecontent!==''): ?>
+    <?php if($sidecontent!==''): ?>
       <div class="col-md-8 col-xs-12 col-sm-12">
         <?= $content; ?>
       </div>
@@ -101,27 +101,27 @@
         <?= $sidecontent; ?>
       </div>
     <?php endif ?>
- 
+
 
   </div><!-- /.container -->
 
 <!-- 
 
-https://www.solodev.com/bldesign/adding-an-infinite-client-logo-carousel-to-yoite.stml -->
+  https://www.solodev.com/bldesign/adding-an-infinite-client-logo-carousel-to-yoite.stml -->
 
 
 
-<div class="row-fluid footerext">
+  <div class="row-fluid footerext">
 
-<h3 class="text-center" id='ancrepartenaires'>Nos entreprises adhérentes/partenaires</h3>
-</div>
-<div id=partners-slider>
+    <h3 class="text-center" id='ancrepartenaires'>Nos entreprises adhérentes/partenaires</h3>
+  </div>
+  <div id=partners-slider>
    <section class="customer-logos slider" >
-   <?php $files = array_slice(scandir('img/partenaires'), 2);
-    foreach($files as $logo){
-  
-    echo ("<div class='slide'><img src='img/partenaires/$logo' ></div>");
-  }
+     <?php $files = array_slice(scandir('img/partenaires'), 2);
+     foreach($files as $logo){
+
+      echo ("<div class='slide'><img src='img/partenaires/$logo' ></div>");
+    }
     ?><!-- 
 
     <div class="slide"><img style="height: 50px;" src="img/actions/AE.png"></div>
@@ -135,14 +135,14 @@ https://www.solodev.com/bldesign/adding-an-infinite-client-logo-carousel-to-yoit
 
   </section>
 </div>
-<footer>
-<div class="row-fluid footer">
+<footer class="footer">
+ 
 
-  <a href="#placementDon"><div style="background-color: #679FA6; height: 30px; width: 30px; padding: 8px; margin : 8px;" class="pull-right text-center">^</div></a>
-  <div id="plan-site">
-    <h4 class="text-center col-xs-12 col-md-12" onclick="affichageFooter('planSite');" id="titrePlanSite">Plan du site</h4>
-    <div class="col-md-12 col-xs-12" id="planSite">
-      <div class="row-fluid planDuSite">        
+    <a href="#placementDon"><div style="background-color: #679FA6; height: 30px; width: 30px; padding: 8px; margin : 8px;" class="pull-right text-center">^</div></a>
+    <div id="plan-site">
+      <h4 class="text-center col-xs-12 col-md-12" onclick="affichageFooter('planSite');" id="titrePlanSite">Plan du site</h4>
+      <div class="col-md-12 col-xs-12" id="planSite">
+
 
         <div class="col-md-2 col-sm-2">
           <h4><a href="index.php?p=posts.index">Accueil</a></h4>
@@ -159,26 +159,27 @@ https://www.solodev.com/bldesign/adding-an-infinite-client-logo-carousel-to-yoit
         <div class="col-md-2 col-sm-2">
           <h4><a href="index.php?p=memberships.index">Nous rejoindre</a></h4>
         </div>  
-          <div class="col-md-2 col-sm-2">
+        <div class="col-md-2 col-sm-2">
           <h4><a href="index.php?p=news.index">Presse</a></h4>
         </div>
         <div class="col-md-2 col-sm-2">
           <h4><a href="index.php?p=contacts.index">Contact</a></h4>
         </div>
       </div>
-    </div>
-    <div class="row" id="lienMentions">
-      <p class="text-center"><a href="index.php?p=notices.index">Mentions légales</a></p>
-    </div>
+      </div>
+      <div id="lienMention">
+        <p class="text-center"><a href="index.php?p=notices.index">Mentions légales</a></p>
+     </div>
 
-    </div>
+
+    
   </footer>
-
-<!--   <script src="js/jquery.js"></script> -->
+  
+  <!--   <script src="js/jquery.js"></script> -->
   <script
-        src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-        crossorigin="anonymous"></script>
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
   <script src="js/bootstrap.js "></script>
   <script type="text/javascript" src="js/script.js"></script>
 

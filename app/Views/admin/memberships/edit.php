@@ -1,5 +1,5 @@
-<form method="post">
+<form method="post" class='formulaires'>
     <?= $form->input('title', 'Titre de la section'); ?>
     <?= $form->input('content', 'contenu de la section', ['type' => 'textarea']); ?>
-    <button class="btn btn-primary">Sauvegarder</button>
+    <button class="valider">Sauvegarder</button>
 </form>

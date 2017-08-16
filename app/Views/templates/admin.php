@@ -17,12 +17,14 @@
 
 </head>
 
-<body>
+<body id="admin">
 
     <div class="row-fluid" id="barre">
       <div id="placementDon">
-        <a href="index.php" class="btn btn-default" role="button" id="boutonDon"><span>interface utilisateur</span></a>
-        <a href="index.php?p=admin.categories.index" class="btn btn-default" role="button" id="boutonDon"> catégories</a>
+      
+        <a href="index.php?p=admin.notices.index" class="boutonDon">Mentions légales</a>
+        <a href="index.php?p=admin.categories.index" class="boutonDon" role="button"> catégories</a>
+          <a href="index.php" class="boutonDon" role="button" ><span>interface utilisateur</span></a>
     </div>
 </div>
 
@@ -85,22 +87,31 @@
 
 
 <main class="row">
-    <div class="col-md-6">
+
+
+    <?php if($sidecontent==''): ?>
+      <div class="col-md-6 col-md-offset-3">
         <?= $content; ?>
-    </div>
-    <div class="col-md-6">
+      </div>
+    <?php endif ?>
+
+    <?php if($sidecontent!==''): ?>
+      <div class="col-md-8 col-xs-12 col-sm-12">
+        <?= $content; ?>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
         <?= $sidecontent; ?>
-    </div>
+      </div>
+    <?php endif ?>
 </main>
 
 </div><!-- /.container -->
 <footer>
-<div class="row-fluid footer">
+
     <div class="row" id="lienMentions">
-      <p class="text-center"><a href="index.php?p=admin.notices.index">Mentions légales</a></p>
+      <p class="text-center"></p>
     </div>
 
-    </div>
   </footer>
 
 <script src="js/jquery.js"></script>

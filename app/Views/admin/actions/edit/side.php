@@ -7,10 +7,6 @@
 <?= $post->actions_img_name ;?>
 <?php endif ?>
 </div>
-<div class='col-md-6'>
-<!-- <p>Image après soumission :</p>
-<img class="aftersubmit col-md-6" src="<?= $path->img_path.$post->actions_img_name; ?>" />  -->
-</div>
 <div class='col-md-12'>
 <p>Image utilisées :</p>
 <?php foreach($actions as $action): ?>
@@ -37,3 +33,4 @@
 <?php endforeach; ?>
 </div>
 </div>
+
