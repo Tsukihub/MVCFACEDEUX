@@ -23,6 +23,7 @@
       <div id="placementDon">
       
         <a href="index.php?p=admin.notices.index" class="boutonDon">Mentions légales</a>
+        <a href="index.php?p=admin.notices.index" class="boutonDon">fichiers</a>
         <a href="index.php?p=admin.categories.index" class="boutonDon" role="button"> catégories</a>
           <a href="index.php" class="boutonDon" role="button" ><span>interface utilisateur</span></a>
     </div>
@@ -45,7 +46,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a href="index.php?p=admin.presentations.index">Face Territoire Bourbonnais</a></li>
-                            <li><a href="#ancrepartenaires">Partenaires</a></li>
+                            <li><a href="index.php?p=admin.presentations.partenaires">Partenaires</a></li>
                         </ul>
                     </li>
 

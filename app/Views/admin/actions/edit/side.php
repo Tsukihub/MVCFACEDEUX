@@ -32,7 +32,7 @@
 
 		<?php endforeach; ?>
 			<div class ="row" style="height: 300px; overflow-y: scroll;">
-		<a onclick='fillfield("")'>Supprimer image</a></div>
+		<a onclick='fillfield("")'>Aucune image</a></div>
 	</div>
 </div>
 

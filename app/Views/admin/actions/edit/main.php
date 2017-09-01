@@ -9,7 +9,7 @@
     <?= $form->input('content', 'Contenu', ['type' => 'textarea']); ?>
     <?=$form->input('actions_img','Choississez une image dans le panneau de droite ou téléchargez en une',['type'=>'file'], '');?>
     <?= $form->input('actions_img_name', '', ['type' => 'hidden']); ?>
-    <p>Image séléctionnée :  <span class ='nomimage'></span></p>
+    <p>Image séléctionnée :  <span class ='nomimage'></span>        <span style="color:red;" onclick='fillfield("")'>x</span></p>
    
     <?= $form->select('actions_category_id', 'Catégorie', $categories); ?>
     <button onclick='fillfieldfromfield()' class="valider">Sauvegarder</button>

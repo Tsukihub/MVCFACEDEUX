@@ -93,5 +93,6 @@ class ActionsController extends AppController{
             $result = $this->Action->delete($_POST['id']);
             return $this->index();
         }
+
     }
 }
