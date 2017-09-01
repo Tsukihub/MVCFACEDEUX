@@ -7,7 +7,7 @@ html, body {
   /*Mise à zéro marges extérieures*/ }
 
 body {
-  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/diagonal-noise.png); }
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/hexellence.png); }
 
 .formobile {
   display: none; }
@@ -97,7 +97,9 @@ nav .dropdown-menu li a:hover {
 #barre {
   height: 60px;
   background-color: #1D4B58;
-  border-bottom: 5px solid #E0A377; }
+  background-color: rgba(29, 75, 88, 0.8);
+  background-color: #126e7a;
+  border-bottom: 5px solid orange; }
 
 #placementDon {
   text-align: right; }
@@ -109,7 +111,7 @@ nav .dropdown-menu li a:hover {
   background-color: #F2F2F2;
   background-color: transparent; }
   #boutonDon span {
-    color: #E0A377;
+    color: orange;
     font-size: 17px; }
 
 .boutonDon {
@@ -228,9 +230,9 @@ blockquote {
     border-top: none; }
 
 .footer, .footerext {
-  background-color: #335d68;
-  background-color: #1D4B58;
-  padding: 20px 0 0 0px;
+  background-color: rgba(29, 75, 88, 0.4);
+  background-color: rgba(18, 110, 122, 0.6);
+  padding: 0px 0 0 0px;
   width: 100%;
   border-top: 4px solid orange;
   color: white; }
@@ -247,8 +249,9 @@ blockquote {
 
 .footerext {
   border-top: none;
+  padding-top: 20px;
   border-bottom: 5px solid  #6AA2A9;
-  background-color: #335d68;
+  background-color: #126e7a;
   margin-top: 80px; }
 
 #lienMention {
@@ -256,10 +259,9 @@ blockquote {
   font-size: 10px;
   font-size: 110%;
   padding-bottom: 20px;
-  background-color: #1D4B58; }
+  background-color: rgba(18, 110, 122, 0.1); }
 
 #planSite {
-  background-color: #1D4B58;
   margin: 30px 0 30px 0;
   text-align: center; }
   #planSite h6 {
@@ -413,6 +415,9 @@ aside {
       margin-right: 0px; }
     .presentation .articles h2 {
       margin-top: 0px; }
+    .presentation .articles h6 {
+      font-weight: bold;
+      margin: 50px auto 50px auto; }
 
 .pagepresentation {
   color: #777; }
@@ -539,34 +544,6 @@ aside {
 
 .photo {
   width: 50%; }
-
-#galerie {
-  background-color: white;
-  /*Fond de la section Fil d'actu*/
-  padding: 0 1.1% 0 1.3;
-  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3); }
-  #galerie h3 {
-    text-align: center;
-    background-color: #008080;
-    font-size: 30px;
-    color: white;
-    padding: 15px;
-    background-color: rgba(255, 160, 148, 0.2);
-    border-bottom: 3px solid orange;
-    font-family: 'Abel', sans-serif;
-    color: #794300;
-    margin-bottom: 40px;
-    font-size: 40px; }
-  #galerie img {
-    margin-left: 10%;
-    width: 80%; }
-  #galerie video {
-    width: 100%;
-    margin: 0 0 10% 0%; }
-
-.lightbox__caption p {
-  font-size: 18px;
-  line-height: 22px; }
 
 #sectionApprenant {
   margin-top: 5%;

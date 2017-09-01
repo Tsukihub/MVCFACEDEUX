@@ -11,7 +11,7 @@
               <img src="<?= $path->img_path.$actions->actions_img_name; ?>" class="col-md-12 col-sm-12 col-xs-12" alt="<?= $actions->actions_img_description; ?> " />
               <?php endif ?>
                  <div class="col-md-12 col-xs-12 col-sm-12">
-                <p class="actioncontent"><?= $actions->content; ?></p>
+                <div class="actioncontent"><?= $actions->content; ?></div>
               </div>
 
             </div>
@@ -19,6 +19,4 @@
           <p><em class="pull-right categorylink"><a href="<?= $categorie->url ?>"><?= $categorie->titre ?></a></em></p>
     </section>
 
-
-
-
+   
